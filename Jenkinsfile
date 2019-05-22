@@ -13,9 +13,7 @@ pipeline {
        stage('Echo and the Bunnymen') {
             agent any
             steps { 
-                {
-                    echo "${EXAMPLEEV}"
-                }
+                echo "${EXAMPLEEV}"
             }
         }
     }
